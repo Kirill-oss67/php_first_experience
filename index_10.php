@@ -23,5 +23,8 @@ $foo = function ($str) use ($glob) {
     echo '<br>' . $str . ' ' . $glob . '<br>';
 };
 
+$test = 'test';
+
+
 
 $foo('hello');
