@@ -14,10 +14,12 @@
 
 // echo phpinfo();
 
-$q = 10;
+ $i = 0;
 
-$p = 15;
-
-$res = $q + $p;
-
-echo $res;
+ while(true){
+    $i++;
+    echo $i;
+    if($i === 10){
+      exit();
+    }
+ }

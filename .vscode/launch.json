@@ -4,11 +4,12 @@
     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "name": "Listen for Xdebug",
+            "name": "PHP for Xdebug",
             "type": "php",
             "request": "launch",
-            "port": 9003
+            "port": 9000
         },
         {
             "name": "Launch currently open script",
